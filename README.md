@@ -51,9 +51,12 @@
 ##Alamofire 
 ```python
  -tableView:
-  ![table](https://i.postimg.cc/vBHHFtPC/tab1.png)
  -AF.request("http://localhost:3000/api/team/create/random/"+UserDefaults.standard.string(forKey: "_id")!, method: .post)
+ ```
+  ![table](https://i.postimg.cc/vBHHFtPC/tab1.png)
+ 
  ![table](https://i.postimg.cc/rwxpSm0Z/alamo1.png)
+ ```python
  -collectionView:
  -AF.request("http://localhost:3000/api/tournoi/create/random/"+UserDefaults.standard.string(forKey: "_id")!, method: .post)
-```
+ ```
