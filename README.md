@@ -2,13 +2,13 @@
 # Eltorno_IOS_4SIM2
 
 
-##architecture mvvm
+## architecture mvvm
 ```python
 -View Controller
 -View Model
 -Model
 ```
-##Pod Install
+## Pod Install
 ```python
  -pod 'GoogleSignIn'
  -pod 'Alamofire'
@@ -21,7 +21,7 @@
  -pod 'SendBirdUIKit' 
  -pod 'AppCenter'
 ```
-##API
+## API
 ```python
  -GoogleSignIn
  -PayPal
@@ -30,7 +30,7 @@
  -FingerPrint
  -QRCODE
 ```
-##URLSession
+## URLSession
 ```python
  The URLSession class and related classes provide an API for downloading data from and uploading data to endpoints indicated by URLs.
  UserAPI:
@@ -48,7 +48,7 @@
  -func forgotPassword()
  -func resetPass()
 ```
-##Alamofire 
+## Alamofire 
 ```python
  -tableView:
  -AF.request("http://localhost:3000/api/team/create/random/"+UserDefaults.standard.string(forKey: "_id")!, method: .post)
