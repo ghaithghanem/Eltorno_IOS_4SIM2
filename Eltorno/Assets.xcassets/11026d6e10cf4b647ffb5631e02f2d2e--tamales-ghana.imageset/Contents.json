@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "11026d6e10cf4b647ffb5631e02f2d2e--tamales-ghana.jpeg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

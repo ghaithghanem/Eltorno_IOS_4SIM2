@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3031CB7842FA31FEB70FCB65 /* Pods_Eltorno.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30F303F622CD207E0EBE3B8C /* Pods_Eltorno.framework */; };
+		5B1FCEFF277C8E720098943C /* TeamFind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1FCEFE277C8E720098943C /* TeamFind.swift */; };
+		5B1FCF01277CA6180098943C /* tournoiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1FCF00277CA6170098943C /* tournoiView.swift */; };
+		5B1FCF03277CAF7C0098943C /* tournoiFind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1FCF02277CAF7C0098943C /* tournoiFind.swift */; };
+		5B325EA52757F8E1001E6EEC /* Signin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B325EA42757F8E1001E6EEC /* Signin.swift */; };
+		5B325EA72757F8F6001E6EEC /* Signup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B325EA62757F8F6001E6EEC /* Signup.swift */; };
+		5B39B87F278388F200F52990 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B39B87E278388F200F52990 /* Images.xcassets */; };
+		5B530D7927833CD700DC0D9C /* MessagerieController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B530D7827833CD700DC0D9C /* MessagerieController.swift */; };
+		5B530D7B27833D0C00DC0D9C /* ChannelListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B530D7A27833D0C00DC0D9C /* ChannelListViewController.swift */; };
+		5B530D7D27833D4600DC0D9C /* SendBirdApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B530D7C27833D4600DC0D9C /* SendBirdApi.swift */; };
+		5B71CA5927721E0E00002426 /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B71CA5827721E0E00002426 /* Team.swift */; };
+		5B71CA5B2772204400002426 /* TeamAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B71CA5A2772204300002426 /* TeamAPI.swift */; };
+		5B71CA5D27722D4A00002426 /* TeamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B71CA5C27722D4A00002426 /* TeamView.swift */; };
+		5B8FA17A277F370000C765AC /* FaceID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B8FA179277F370000C765AC /* FaceID.swift */; };
+		5B8FA17C277F437D00C765AC /* MapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B8FA17B277F437D00C765AC /* MapController.swift */; };
+		5B9AA949277E019C002C04D3 /* qrCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9AA948277E019C002C04D3 /* qrCode.swift */; };
+		5B9AA94B277E3F33002C04D3 /* PayPal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9AA94A277E3F33002C04D3 /* PayPal.swift */; };
+		5BC0E377277DE1CD00A39F36 /* ForgotPasword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC0E376277DE1CD00A39F36 /* ForgotPasword.swift */; };
+		5BC0E379277DEC4900A39F36 /* ResetPassController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC0E378277DEC4900A39F36 /* ResetPassController.swift */; };
+		5BD25DE62757B99B00BEF01E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD25DE52757B99B00BEF01E /* AppDelegate.swift */; };
+		5BD25DE82757B99B00BEF01E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD25DE72757B99B00BEF01E /* SceneDelegate.swift */; };
+		5BD25DED2757B99B00BEF01E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BD25DEB2757B99B00BEF01E /* Main.storyboard */; };
+		5BD25DF02757B99B00BEF01E /* Eltorno.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5BD25DEE2757B99B00BEF01E /* Eltorno.xcdatamodeld */; };
+		5BD25DF52757B99D00BEF01E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BD25DF32757B99D00BEF01E /* LaunchScreen.storyboard */; };
+		5BED42112760CABC008B343D /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BED42102760CABC008B343D /* User.swift */; };
+		5BED42132760CADF008B343D /* UserAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BED42122760CADF008B343D /* UserAPI.swift */; };
+		5BED42172760F690008B343D /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BED42162760F690008B343D /* ProfileView.swift */; };
+		5BED4219276120AB008B343D /* Update.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BED4218276120AB008B343D /* Update.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		30F303F622CD207E0EBE3B8C /* Pods_Eltorno.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Eltorno.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B1FCEFE277C8E720098943C /* TeamFind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamFind.swift; sourceTree = "<group>"; };
+		5B1FCF00277CA6170098943C /* tournoiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tournoiView.swift; sourceTree = "<group>"; };
+		5B1FCF02277CAF7C0098943C /* tournoiFind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tournoiFind.swift; sourceTree = "<group>"; };
+		5B325EA42757F8E1001E6EEC /* Signin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Signin.swift; sourceTree = "<group>"; };
+		5B325EA62757F8F6001E6EEC /* Signup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Signup.swift; sourceTree = "<group>"; };
+		5B39B87E278388F200F52990 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5B530D7827833CD700DC0D9C /* MessagerieController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagerieController.swift; sourceTree = "<group>"; };
+		5B530D7A27833D0C00DC0D9C /* ChannelListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelListViewController.swift; sourceTree = "<group>"; };
+		5B530D7C27833D4600DC0D9C /* SendBirdApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendBirdApi.swift; sourceTree = "<group>"; };
+		5B71CA5827721E0E00002426 /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
+		5B71CA5A2772204300002426 /* TeamAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamAPI.swift; sourceTree = "<group>"; };
+		5B71CA5C27722D4A00002426 /* TeamView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamView.swift; sourceTree = "<group>"; };
+		5B8FA179277F370000C765AC /* FaceID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceID.swift; sourceTree = "<group>"; };
+		5B8FA17B277F437D00C765AC /* MapController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapController.swift; sourceTree = "<group>"; };
+		5B9AA948277E019C002C04D3 /* qrCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = qrCode.swift; sourceTree = "<group>"; };
+		5B9AA94A277E3F33002C04D3 /* PayPal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayPal.swift; sourceTree = "<group>"; };
+		5BC0E376277DE1CD00A39F36 /* ForgotPasword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasword.swift; sourceTree = "<group>"; };
+		5BC0E378277DEC4900A39F36 /* ResetPassController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPassController.swift; sourceTree = "<group>"; };
+		5BD25DE22757B99B00BEF01E /* Eltorno.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Eltorno.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BD25DE52757B99B00BEF01E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5BD25DE72757B99B00BEF01E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5BD25DEC2757B99B00BEF01E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5BD25DEF2757B99B00BEF01E /* Eltorno.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Eltorno.xcdatamodel; sourceTree = "<group>"; };
+		5BD25DF42757B99D00BEF01E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5BD25DF62757B99D00BEF01E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BED42102760CABC008B343D /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		5BED42122760CADF008B343D /* UserAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAPI.swift; sourceTree = "<group>"; };
+		5BED42162760F690008B343D /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		5BED4218276120AB008B343D /* Update.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Update.swift; sourceTree = "<group>"; };
+		C1E05A78EB6D3F01B06C0C53 /* Pods-Eltorno.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eltorno.debug.xcconfig"; path = "Target Support Files/Pods-Eltorno/Pods-Eltorno.debug.xcconfig"; sourceTree = "<group>"; };
+		CDA07048C2BAF67B92006DA5 /* Pods-Eltorno.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eltorno.release.xcconfig"; path = "Target Support Files/Pods-Eltorno/Pods-Eltorno.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5BD25DDF2757B99B00BEF01E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3031CB7842FA31FEB70FCB65 /* Pods_Eltorno.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B325EA12757F7A7001E6EEC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5BED42102760CABC008B343D /* User.swift */,
+				5B71CA5827721E0E00002426 /* Team.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5B325EA22757F7BE001E6EEC /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				5BED42122760CADF008B343D /* UserAPI.swift */,
+				5B71CA5A2772204300002426 /* TeamAPI.swift */,
+				5B530D7C27833D4600DC0D9C /* SendBirdApi.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		5B325EA32757F7D3001E6EEC /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5B39B87E278388F200F52990 /* Images.xcassets */,
+				5B325EA42757F8E1001E6EEC /* Signin.swift */,
+				5B325EA62757F8F6001E6EEC /* Signup.swift */,
+				5BED42162760F690008B343D /* ProfileView.swift */,
+				5BED4218276120AB008B343D /* Update.swift */,
+				5B71CA5C27722D4A00002426 /* TeamView.swift */,
+				5B1FCEFE277C8E720098943C /* TeamFind.swift */,
+				5B1FCF00277CA6170098943C /* tournoiView.swift */,
+				5B1FCF02277CAF7C0098943C /* tournoiFind.swift */,
+				5BC0E376277DE1CD00A39F36 /* ForgotPasword.swift */,
+				5BC0E378277DEC4900A39F36 /* ResetPassController.swift */,
+				5B9AA948277E019C002C04D3 /* qrCode.swift */,
+				5B9AA94A277E3F33002C04D3 /* PayPal.swift */,
+				5B8FA179277F370000C765AC /* FaceID.swift */,
+				5B8FA17B277F437D00C765AC /* MapController.swift */,
+				5B530D7827833CD700DC0D9C /* MessagerieController.swift */,
+				5B530D7A27833D0C00DC0D9C /* ChannelListViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		5BD25DD92757B99B00BEF01E = {
+			isa = PBXGroup;
+			children = (
+				5BD25DE42757B99B00BEF01E /* Eltorno */,
+				5BD25DE32757B99B00BEF01E /* Products */,
+				C87FA8442AA3DAC26C9166FF /* Pods */,
+				9FA45E5E44C0083C9B262001 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5BD25DE32757B99B00BEF01E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5BD25DE22757B99B00BEF01E /* Eltorno.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5BD25DE42757B99B00BEF01E /* Eltorno */ = {
+			isa = PBXGroup;
+			children = (
+				5B325EA32757F7D3001E6EEC /* ViewController */,
+				5B325EA22757F7BE001E6EEC /* ViewModels */,
+				5B325EA12757F7A7001E6EEC /* Models */,
+				5BD25DE52757B99B00BEF01E /* AppDelegate.swift */,
+				5BD25DE72757B99B00BEF01E /* SceneDelegate.swift */,
+				5BD25DEB2757B99B00BEF01E /* Main.storyboard */,
+				5BD25DF32757B99D00BEF01E /* LaunchScreen.storyboard */,
+				5BD25DF62757B99D00BEF01E /* Info.plist */,
+				5BD25DEE2757B99B00BEF01E /* Eltorno.xcdatamodeld */,
+			);
+			path = Eltorno;
+			sourceTree = "<group>";
+		};
+		9FA45E5E44C0083C9B262001 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				30F303F622CD207E0EBE3B8C /* Pods_Eltorno.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C87FA8442AA3DAC26C9166FF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C1E05A78EB6D3F01B06C0C53 /* Pods-Eltorno.debug.xcconfig */,
+				CDA07048C2BAF67B92006DA5 /* Pods-Eltorno.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5BD25DE12757B99B00BEF01E /* Eltorno */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BD25DF92757B99D00BEF01E /* Build configuration list for PBXNativeTarget "Eltorno" */;
+			buildPhases = (
+				2032707D0D24DD51E9412F88 /* [CP] Check Pods Manifest.lock */,
+				5BD25DDE2757B99B00BEF01E /* Sources */,
+				5BD25DDF2757B99B00BEF01E /* Frameworks */,
+				5BD25DE02757B99B00BEF01E /* Resources */,
+				B7A4070942AEADA290D51686 /* [CP] Embed Pods Frameworks */,
+				B502DBD8B57703C0BB202DC2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Eltorno;
+			productName = Eltorno;
+			productReference = 5BD25DE22757B99B00BEF01E /* Eltorno.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5BD25DDA2757B99B00BEF01E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					5BD25DE12757B99B00BEF01E = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = 5BD25DDD2757B99B00BEF01E /* Build configuration list for PBXProject "Eltorno" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5BD25DD92757B99B00BEF01E;
+			productRefGroup = 5BD25DE32757B99B00BEF01E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5BD25DE12757B99B00BEF01E /* Eltorno */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5BD25DE02757B99B00BEF01E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B39B87F278388F200F52990 /* Images.xcassets in Resources */,
+				5BD25DF52757B99D00BEF01E /* LaunchScreen.storyboard in Resources */,
+				5BD25DED2757B99B00BEF01E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2032707D0D24DD51E9412F88 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Eltorno-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B502DBD8B57703C0BB202DC2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Eltorno/Pods-Eltorno-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Eltorno/Pods-Eltorno-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Eltorno/Pods-Eltorno-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7A4070942AEADA290D51686 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Eltorno/Pods-Eltorno-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Eltorno/Pods-Eltorno-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Eltorno/Pods-Eltorno-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5BD25DDE2757B99B00BEF01E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BED42172760F690008B343D /* ProfileView.swift in Sources */,
+				5B8FA17C277F437D00C765AC /* MapController.swift in Sources */,
+				5BD25DE62757B99B00BEF01E /* AppDelegate.swift in Sources */,
+				5B325EA72757F8F6001E6EEC /* Signup.swift in Sources */,
+				5B1FCEFF277C8E720098943C /* TeamFind.swift in Sources */,
+				5BC0E379277DEC4900A39F36 /* ResetPassController.swift in Sources */,
+				5B71CA5B2772204400002426 /* TeamAPI.swift in Sources */,
+				5BED4219276120AB008B343D /* Update.swift in Sources */,
+				5B1FCF03277CAF7C0098943C /* tournoiFind.swift in Sources */,
+				5BED42112760CABC008B343D /* User.swift in Sources */,
+				5BD25DE82757B99B00BEF01E /* SceneDelegate.swift in Sources */,
+				5BD25DF02757B99B00BEF01E /* Eltorno.xcdatamodeld in Sources */,
+				5B9AA94B277E3F33002C04D3 /* PayPal.swift in Sources */,
+				5B1FCF01277CA6180098943C /* tournoiView.swift in Sources */,
+				5B325EA52757F8E1001E6EEC /* Signin.swift in Sources */,
+				5B9AA949277E019C002C04D3 /* qrCode.swift in Sources */,
+				5B530D7927833CD700DC0D9C /* MessagerieController.swift in Sources */,
+				5B530D7D27833D4600DC0D9C /* SendBirdApi.swift in Sources */,
+				5B71CA5927721E0E00002426 /* Team.swift in Sources */,
+				5BED42132760CADF008B343D /* UserAPI.swift in Sources */,
+				5B71CA5D27722D4A00002426 /* TeamView.swift in Sources */,
+				5BC0E377277DE1CD00A39F36 /* ForgotPasword.swift in Sources */,
+				5B8FA17A277F370000C765AC /* FaceID.swift in Sources */,
+				5B530D7B27833D0C00DC0D9C /* ChannelListViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5BD25DEB2757B99B00BEF01E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BD25DEC2757B99B00BEF01E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5BD25DF32757B99D00BEF01E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BD25DF42757B99D00BEF01E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5BD25DF72757B99D00BEF01E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5BD25DF82757B99D00BEF01E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5BD25DFA2757B99D00BEF01E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1E05A78EB6D3F01B06C0C53 /* Pods-Eltorno.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Eltorno/Info.plist;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Eltorno would access your Biometrics";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ghaith.Eltorno;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5BD25DFB2757B99D00BEF01E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDA07048C2BAF67B92006DA5 /* Pods-Eltorno.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Eltorno/Info.plist;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Eltorno would access your Biometrics";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ghaith.Eltorno;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5BD25DDD2757B99B00BEF01E /* Build configuration list for PBXProject "Eltorno" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BD25DF72757B99D00BEF01E /* Debug */,
+				5BD25DF82757B99D00BEF01E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BD25DF92757B99D00BEF01E /* Build configuration list for PBXNativeTarget "Eltorno" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BD25DFA2757B99D00BEF01E /* Debug */,
+				5BD25DFB2757B99D00BEF01E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5BD25DEE2757B99B00BEF01E /* Eltorno.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5BD25DEF2757B99B00BEF01E /* Eltorno.xcdatamodel */,
+			);
+			currentVersion = 5BD25DEF2757B99B00BEF01E /* Eltorno.xcdatamodel */;
+			path = Eltorno.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5BD25DDA2757B99B00BEF01E /* Project object */;
+}
